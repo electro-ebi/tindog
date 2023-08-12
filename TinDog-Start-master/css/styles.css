@@ -1,0 +1,76 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#title{background-color: #ff4c68;
+    color: #ffffff;
+
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+/* Nav bar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+
+}
+/* down dutton */
+
+#down-btn{
+    margin:5% 3% 5% 0;
+}
+/* phone-img */
+.phone-img{
+    width: 60%;
+    transform:rotate(25deg) ;
+}
+
+
+/* features */
+#features{
+        text-align: center;
+        padding: 100px;
+}
+.hfc{
+    padding-top: 2rem;
+}
+
+.fa-solid{
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+.hf{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.pp{
+    width: 75%;
+    margin: auto;
+    color: #8f8f8f;
+}
