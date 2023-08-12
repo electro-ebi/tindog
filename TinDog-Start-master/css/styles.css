@@ -58,7 +58,7 @@ h1{
         padding: 100px;
 }
 .hfc{
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .fa-solid{
@@ -73,4 +73,10 @@ h1{
     width: 75%;
     margin: auto;
     color: #8f8f8f;
+}#ico{
+    color: #ef8172;
+}
+#ico:hover{
+    color: #ff4c68;
+
 }
