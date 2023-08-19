@@ -115,3 +115,16 @@ h2{
 #car{
     padding: 7% 15%;
 }
+
+/* pricing section  */
+
+#pricing{
+    padding: 100px;
+    
+}
+
+
+.pricing-col{
+    padding: 3% 2%;
+    text-align: center;
+}
