@@ -16,6 +16,10 @@ h1{
     line-height: 1.5;
     
 }
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
 /* Nav bar */
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
@@ -79,4 +83,35 @@ h1{
 #ico:hover{
     color: #ff4c68;
 
+}
+
+/* testimonials  */
+
+#testimonials{
+    background-color: #ef8172;
+    
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: center;
+    
+    
+
+}
+.tes-img{
+    width: 15%;
+    border-radius: 100%;
+    padding: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#car{
+    padding: 7% 15%;
 }
