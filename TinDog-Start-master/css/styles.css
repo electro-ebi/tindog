@@ -62,15 +62,15 @@ h2{
 /* features */
 #features{
         text-align: center;
-<<<<<<< HEAD
-        padding: 7% 15%
-=======
+
+        padding: 7% 15%;
+
         padding: 100px;
-        background-color: #ffffff;
+        background-color:#ffffff;
         position: relative;
         
->>>>>>> 8948ebc (add this)
-}
+
+    }
 .hfc{
     padding-top: 4rem;
 }
