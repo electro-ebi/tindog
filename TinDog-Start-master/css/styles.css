@@ -1,96 +1,120 @@
+/* general Tags */
+
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
     
 }
-#title{background-color: #ff4c68;
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-weight: 800;
+    line-height: 1.5;    
+}
+
+h3{
+    line-height: 1.5;
+}
+
+/* Common Class */
+
+.big-title{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.price-text{
+    font-size: 3rem;
+}
+
+.container-fluid{
+    padding: 7% 15% ;
+}
+
+/* Setion */
+
+.coloured-section{
+    background-color: #ff4c68;
     color: #ffffff;
 
 }
 
+.white-section{
+    background-color:#ffffff;
+}
 
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    
-    font-size: 3.5rem;
-    line-height: 1.5;
-    
+/* Title section */
+
+#title .container-fluid{
+    padding-top: 3%;
+    text-align: left;
 }
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-}
+
 /* Nav bar */
+
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .navbar{
     padding-bottom: 4.5rem;
 }
 
-
-.container-fluid{
-    padding: 3% 15% 7%  ;
-}
 .nav-item{
     padding: 0 18px;
 }
+
 .nav-link{
     font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-
-
+    text-align: left;
 }
-/* down dutton */
 
-#down-btn{
+/* download dutton */
+
+#download-button{
     margin:5% 3% 5% 0;
 }
+
 /* phone-img */
+
 .phone-img{
     width: 25%;
     transform:rotate(25deg) ;
     position:absolute;
     right: 17%
-    
 }
-
 
 /* features */
+
 #features{
-        text-align: center;
-
-        padding: 7% 15%;
-
-        padding: 100px;
-        background-color:#ffffff;
-        position: relative;
-        
-
-    }
-.hfc{
-    padding-top: 4rem;
+    padding: 100px 0;
+    position: relative;
 }
 
-.fa-solid{
-    font-size: 5rem;
-    padding-bottom: 1rem;
-}
-.hf{
+.feature-heading{
     font-size: 1.5rem;
     font-weight: 800;
 }
-.pp{
+
+.features-discription, .footer-copright{
     width: 75%;
     margin: auto;
     color: #8f8f8f;
-}#ico{
-    color: #ef8172;
 }
-#ico:hover{
+
+#features-icon{
+    color: #ef8172;
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+
+#features-icon:hover{
     color: #ff4c68;
 
 }
@@ -99,30 +123,29 @@ h2{
 
 #testimonials{
     background-color: #ef8172;
-    
-    color: #ffffff;
-    line-height: 1.5;
-    text-align: center;
-    
-    
-
 }
-.tes-img{
-    width: 15%;
+
+#testimonials h2{
+    font-size: 3rem;
+}
+
+.testimonial-img{
+    width: 10%;
     border-radius: 100%;
     padding: 20px;
 }
+
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding: 3%;
 }
+
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
 }
 
-#car{
+#card{
     padding: 7% 15%;
 }
 
@@ -133,12 +156,23 @@ h2{
     
 }
 
-
 .pricing-col{
     padding: 3% 2%;
-    text-align: center;
 }
 
+
+
+/* CTA selection */
+
+#cta-button{
+    margin: 7% 1% ;
+}
+
+/* Footer section */
+
+.footer-icon{
+    margin: 20px 10px; 
+}
 
 
 /* moblie customization */
