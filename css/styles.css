@@ -1,0 +1,189 @@
+/* general Tags */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-weight: 800;
+    line-height: 1.5;    
+}
+
+h3{
+    line-height: 1.5;
+}
+
+/* Common Class */
+
+.big-title{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.price-text{
+    font-size: 3rem;
+}
+
+.container-fluid{
+    padding: 7% 15% ;
+}
+
+/* Setion */
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: #ffffff;
+
+}
+
+.white-section{
+    background-color:#ffffff;
+}
+
+/* Title section */
+
+#title .container-fluid{
+    padding-top: 3%;
+    text-align: left;
+}
+
+/* Nav bar */
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* download dutton */
+
+#download-button{
+    margin:5% 3% 5% 0;
+}
+
+/* phone-img */
+
+.phone-img{
+    width: 25%;
+    transform:rotate(25deg) ;
+    position:absolute;
+    right: 17%
+}
+
+/* features */
+
+#features{
+    padding: 100px 0;
+    position: relative;
+}
+
+.feature-heading{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.features-discription, .footer-copright{
+    width: 75%;
+    margin: auto;
+    color: #8f8f8f;
+}
+
+#features-icon{
+    color: #ef8172;
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+
+#features-icon:hover{
+    color: #ff4c68;
+
+}
+
+/* testimonials  */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+#testimonials h2{
+    font-size: 3rem;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#card{
+    padding: 7% 15%;
+}
+
+/* pricing section  */
+
+#pricing{
+    padding: 100px;
+    
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+
+/* CTA selection */
+
+#cta-button{
+    margin: 7% 1% ;
+}
+
+/* Footer section */
+
+.footer-icon{
+    margin: 20px 10px; 
+}
+
+
+/* moblie customization */
+
+@media (max-width :1028px){
+    .phone-img{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+    #title{
+        text-align: center;
+    }
+}
